@@ -1,0 +1,146 @@
+input[type='password'] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        z-index: 1000;
+        display: block;
+            }
+.prof-button{
+	width: 200px;
+	height: 100px;
+	margin: 50px;
+}
+
+.login_form{
+	display: none;
+}
+
+.breadboardloadprof {
+	position: relative;
+	top: 100px;
+      }
+      
+      .profform {
+	padding: 10px;
+	height: 250px;
+	width: 400px;
+	border: 2px solid black;
+	position: relative;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.347);
+      }
+      
+      input[type='text'] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	z-index: 1000;
+	display: block;
+      }
+      
+      .submitbutton {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background-color: #1d3557;
+	border: none;
+	cursor: pointer;
+	border-radius: 20px;
+      }
+
+.prof-button {
+  /* display: block; */
+  /* top:200px; */
+  /* left: 300px; */
+  left:-70px;
+  width: 275px;
+  height: 75px;
+  border-radius: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  background-color: rgb(210, 216, 218);
+  border: 2px solid #1d3557;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all 0.2s;
+  margin-right: 50px;
+}
+
+.prof-button span {
+  position: relative;
+  z-index: 2;
+}
+
+.prof-button:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border-radius: 40px;
+  background: #1d3557;
+  transition: all 0.35s;
+}
+
+.prof-button:hover {
+  color: #fff;
+}
+
+.prof-button:hover:after {
+  width: 100%;
+}
+
+.stu-button {
+  /* display: block; */
+  /* top:200px; */
+  /* left: 440px; */
+  width: 275px;
+  height: 75px;
+  border-radius: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  background-color: rgb(210, 216, 218);
+  border: 2px solid #1d3557;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all 0.05s;
+}
+
+.stu-button span {
+  position: relative;
+  z-index: 2;
+}
+
+.stu-button:after {
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  border-radius: 40px;
+  background: #1d3557;
+  transition: all 0.35s;
+}
+
+.stu-button:hover {
+  color: #fff;
+}
+
+.stu-button:hover:after {
+  width: 100%;
+}

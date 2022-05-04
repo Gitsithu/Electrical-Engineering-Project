@@ -1,0 +1,25 @@
+{
+  "Res": [],
+  "Led": [
+    {
+      "id": "L",
+      "pointA": [],
+      "pointB": []
+    },
+    {
+      "id": "L",
+      "pointA": [],
+      "pointB": []
+    }
+  ],
+  "Npntrans": [],
+  "Trimmer": [],
+  "Wire": [],
+  "Batt": [
+    {
+      "id": "B",
+      "pointA": [],
+      "pointB": []
+    }
+  ]
+}

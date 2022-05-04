@@ -1,0 +1,138 @@
+#brd {
+  background-color: #d9dfc4;
+  border: 3px rgb(10, 10, 10) solid;
+}
+.pin:hover {
+  fill: black;
+  stroke: green;
+}
+
+#compornant {
+  position: absolute;
+  bottom: 0;
+  width: 100px;
+}
+
+#console {
+  width: 100%;
+}
+
+#breadboardd {
+  width: 80%;
+}
+
+
+#commponent {
+  width: 20%;
+}
+
+
+
+.buttondiv {
+  display: flex;
+}
+
+.btn {
+  border: 2px solid;
+  background-color: lightgray;
+  color: black;
+  font-size: 9px;
+  cursor: pointer;
+  height: 30px !important;
+  width: 45px !important;
+}
+
+
+
+
+
+
+#wrap {
+  margin-left: -110px !important;
+  margin-top: 13%;
+  width: 110%;
+  height: 500px;
+}
+
+.icon{
+  border: 2px solid #1d3557;
+  color: #1d3557;
+  height: 60px;
+  width: 60px;
+  margin: 5px;
+  font-size: 9px;
+}
+
+.big{
+  font-size: 17px;
+}
+
+.extra-big{
+  font-size: 25px;
+}
+.icon p{
+
+  font-size: 12px;
+}
+
+
+.actionbutton {
+  border: 2px solid #1d3557;
+  height: 60px;
+  width: 60px;
+  margin: 5px;
+  background-color: transparent;
+}
+
+.actionbutton:hover {
+  border: 2px solid #1d3557;
+  height: 60px;
+  width: 60px;
+  margin: 5px;
+  color:white;
+  background-color: #1d3557;
+}
+
+.hidden{
+  display: none;
+}
+
+.opamptext{
+  font-size: 8px;
+  fill:#faedcd;
+}
+.timertext{
+  font-size: 8px;
+  fill:#faedcd;
+}
+.opamptext2{
+  font-size: 12px;
+ fill:#faedcd;
+ font-weight: 500;
+}
+.timerchiptext2{
+  font-size: 10px;
+ fill:#faedcd;
+ font-weight: 500;
+}
+
+.motordrivertext2{
+  font-size: 12px;
+ fill:#faedcd;
+ font-weight: 500;
+}
+.small{
+  font-size: 10px;
+}
+
+
+.plus{
+  fill:#696969;
+  font-size: 20px;
+}
+
+.plusbig{
+  fill:#696969;
+  font-size: 30px;
+
+}

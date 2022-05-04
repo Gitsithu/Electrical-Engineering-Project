@@ -1,0 +1,47 @@
+
+
+.breadboard{
+width:800px;
+height:400px;
+background-color: rgb(231, 229, 229);
+display:flex;
+flex-direction: column;}
+
+.hole{
+    width:10px;
+    height:10px;
+    background-color: slategrey;
+    margin:3px
+}
+
+.row{
+    display:flex;
+    flex-direction:row;
+}
+
+.section{
+    display:flex;
+    flex-direction:row;
+    margin:5px;
+}
+
+.sectionspace{
+    width:20px;
+    height:20px;
+}
+
+.blueline{
+height:5px;
+width:800px;
+background-color: rgb(3, 50, 82);
+}
+
+.rowspace{
+height:5px;
+width:800px;
+background-color: red;
+} 
+
+#red{
+    background-color: red;
+}

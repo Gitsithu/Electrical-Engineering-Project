@@ -1,0 +1,72 @@
+{
+  "Res": [
+    {
+      "id": "R",
+      "pointA": "T35",
+      "pointB": "T38"
+    },
+    {
+      "id": "R",
+      "pointA": "T35",
+      "pointB": "T32"
+    },
+    {
+      "id": "R",
+      "pointA": "T42",
+      "pointB": "T45"
+    }
+  ],
+  "Led": [
+    {
+      "id": "L",
+      "pointA": "T32",
+      "pointB": "T29"
+    },
+    {
+      "id": "L",
+      "pointA": "T38",
+      "pointB": "T41"
+    },
+    {
+      "id": "L",
+      "pointA": "T45",
+      "pointB": "T48"
+    }
+  ],
+  "Npntrans": [],
+  "Trimmer": [],
+  "Wire": [
+    {
+      "id": "W",
+      "pointA": "VL1-26",
+      "pointB": "T35"
+    },
+    {
+      "id": "W",
+      "pointA": "T29",
+      "pointB": "GL1-25"
+    },
+    {
+      "id": "W",
+      "pointA": "T41",
+      "pointB": "GL1-31"
+    },
+    {
+      "id": "W",
+      "pointA": "T48",
+      "pointB": "GL1-37"
+    },
+    {
+      "id": "W",
+      "pointA": "T35",
+      "pointB": "T42"
+    }
+  ],
+  "Batt": [
+    {
+      "id": "B",
+      "pointA": "GL1-1",
+      "pointB": "VL1-1"
+    }
+  ]
+}

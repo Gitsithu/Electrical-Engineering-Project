@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breadboard Application</title>
+    <link rel="stylesheet" href="BreadboardPage.css">
+    <link rel="stylesheet" href="BreadboardPage.css">
+    <link rel="stylesheet" href="Login.css">
+    <link rel="stylesheet" href="./Jquery-Ui/jquery-ui.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap">
+    <script src="https://kit.fontawesome.com/4e8ca0d16c.js" crossorigin="anonymous"></script>
+    <script src="./Jquery-Ui/jquery-3.6.0.js"></script>
+    <script src="./Jquery-Ui/jquery-ui.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
+    <script src="./Snap.svg-0.5.1/dist/snap.svg-min.js"></script>
+    <script type="text/JavaScript">
+        function submitForm(event){
+          event.preventDefault();
+          window.history.back();
+        }
+      </script>
+        
+
+</head>
+
+<body style="overflow-x: hidden;">
+    <div class="app">
+        <div class="leftapp" style="width: 80% !important;">
+            <div class="navbar">
+                <div style="margin-left: 200px; margin-top: 10px; width: 110%;">
+                <ul>
+                    <li class="home" style="width: 15% !important;"><a href="home.html"> <img src="./Icons/home.svg" alt=""> Home</a></li>
+                    <li class="breadboard" style="width: 15% !important;"><a href="login.html"> <img src="./Icons/wiring.svg" alt="">
+                            Breadboard</a></li>
+                    <li class="schematic" style="width: 15% !important;"><a href="components.html"> <img src="./Icons/led.svg" alt=""> Components</a></li>
+                    <li class="PCB" style="width: 15% !important;"><a href="#"> <img src="./Icons/question.svg" alt=""> FAQ</a></li>
+                </ul>
+                </div>
+            </div>
+            <div class="console">
+                    <div id="student_prof" >
+                        <button id="prof-button" class="prof-button"> <span>Professor</span></button>
+                        <button id="stu-button" class="stu-button"> <span>Student</span></button>
+                    </div>
+                    <form id="prof_form" onsubmit="" method="POST">
+
+                    <div id="login_form" class="login_form">
+                        <div>
+                            <div id="profformid" class="profform" >
+                                <div>
+                                <label>
+                                  Prof Name:
+                                  <input type="text" name="name" id="Prof_Name" />
+                                </label>
+                                <label>
+                                  Password:
+                                  <input type="password" name="name" id="passwordform" />
+                                </label>
+                                <button type="submit" class="submitbutton" id="submitbutton"> Submit</button>
+                            </div>
+                            </div>
+                           
+                          </div>
+                    </div>
+                    </form>
+                    <form id="std_form" method="POST">
+
+                    <div id="login_form2" class="login_form">
+                        <div >
+                            <div id="profformid" class="profform" >
+                            <div>
+                                <label>
+                                    Matriculation Number:
+                                  <input type="text" name="name" id="Matriculation_number" />
+                                </label>
+                                <label>
+                                  Password:
+                                  <input type="password" name="password" id="password_Matriculation" />
+                                </label>
+                                <button type="submit"  class="submitbutton" id="submitbutton_Matriculation"> Submit</button>
+                            </div>
+                            </div>
+                           
+                          </div>
+                    </div>
+                </form>
+
+            </div>
+            <div class="footer">
+                <div class="note">
+                    <button>
+                        <img src="./Icons/notes.svg" alt="">
+                        <h1>Add a note</h1>
+                    </button>
+                </div>
+                <div class="rotate">
+                    <button>
+                        <img src="./Icons/refresh.svg" alt="">
+                        <h1>Rotate</h1>
+                    </button>
+                </div>
+                <div class="flip">
+                    <button>
+                        <img src="./Icons/reflect.svg" alt="">
+                        <h1>Flip</h1>
+                    </button>
+                </div>
+                <div class="download">
+                    <button>
+                        <img src="./Icons/download-circular-button.svg" alt="">
+                        <h1>Download</h1>
+                    </button>
+                </div>
+                <div class="share">
+                    <button>
+                        <img src="./Icons/share.svg" alt="">
+                        <h1>Share</h1>
+                    </button>
+                </div>
+            </div>
+        </div>
+       
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+<link rel="stylesheet" href="./BreadboardFeatures.css">
+
+</body>
+<script src="Login.js">
+
+</script>
+
+</html>

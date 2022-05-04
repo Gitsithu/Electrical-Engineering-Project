@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breadboard Application</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap">
+    <script src="https://kit.fontawesome.com/4e8ca0d16c.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body style="overflow-x: hidden;">
+    <div class="app">
+        <div class="leftapp" style="width: 80% !important;">
+            <div class="navbar">
+                <div style="margin-left: 200px; margin-top: 10px; width: 110%;">
+                <ul>
+                    <li class="home" style="width: 15% !important;"><a href="home.html"> <img src="./Icons/home.svg" alt=""> Home</a></li>
+                    <li class="breadboard" style="width: 15% !important;"><a href="login.html"> <img src="./Icons/wiring.svg" alt="">
+                            Breadboard</a></li>
+                    <li class="schematic" style="width: 15% !important;"><a href="components.html"> <img src="./Icons/led.svg" alt=""> Components</a></li>
+                    <li class="PCB" style="width: 15% !important;"><a href="#"> <img src="./Icons/question.svg" alt=""> FAQ</a></li>
+                </ul>
+                </div>
+            </div>
+            <div class="console">
+
+            </div>
+          
+            <div class="footer" style="margin-bottom:0% !important; width: 100% !important;">
+                <div class="note">
+                    <button style="margin-left: 30% !important;">
+                        <img src="./Icons/notes.svg" style="width: 40% !important;" alt="">
+                        <h1>Add a note</h1>
+                    </button>
+                </div>
+                <div class="rotate">
+                    <button style="margin-left: -45% !important;">
+                        <img src="./Icons/refresh.svg" style="width: 40% !important;" alt="">
+                        <h1>Rotate</h1>
+                    </button>
+                </div>
+                <div class="flip">
+                    <button style="margin-left: -120% !important;">
+                        <img src="./Icons/reflect.svg" style="width: 40% !important;" alt="">
+                        <h1>Flip</h1>
+                    </button>
+                </div>
+                <div class="download">
+                    <button onclick="onDownload()" style="margin-left: -300% !important;">
+                        <img src="./Icons/download-circular-button.svg" alt="">
+                        <h1>Download</h1>
+                    </button>
+                </div>
+                <div class="share">
+                    <button style="margin-left: -300% !important;">
+                        <img src="./Icons/share.svg" alt="">
+                        <h1>Share</h1>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="rightapp">
+            <div class="components">
+                <h1 class="parts">Parts</h1>
+                <h1 class="coreparts"><i class="fas fa-search"></i>Core Parts<i class="fas fa-bars"></i></h1>
+                <div class="componentpics">
+                    <img src="./Components/LED-red-5mmicon.svg"><img src="./Components/LED-green-5mmicon.svg"><img
+                        src="./Components/LED-blue-5mmicon.svg"><img src="./Components/resistor_icon_1k.svg"><img
+                        src=".//Components/resistor_icon_10k.svg"><img src="./Components/resistor_icon_1M.svg"><img
+                        src="./Components/inductor.svg"><img src="./Components/ceramic_capacitor_blue_icon.svg"><img
+                        src="./Components/electrolytic_capacitor_small_icon.svg"><img
+                        src="./Components/dc_motor.svg"><img src="./Components/Battery_block_9V82.svg"><img
+                        src="./Components/BATTERY-AA-PANEL.svg"><img src="./Components/BATTERY-AAA.svg">
+                </div>
+            </div>
+
+            <div class="inspector">
+                <h1 class="inspectorhead">Inspector</h1>
+                <div class="inspectorbody">
+                    <h1>Wire1</h1>
+                    
+                    <p>Wire</p>
+                    <select name="Colour Options" id="color-options">
+                        <option value="Red">Red</option>
+                        <option value="Blue">Blue</option>
+                        <option value="Green">Green</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
